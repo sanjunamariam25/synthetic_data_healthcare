@@ -105,5 +105,4 @@ If you want to turn this into a more complete synthetic-data project, the next l
 
 ## Quick Start Summary
 
-Open `assets/hospital_env_labelled.usd`, run `scripts/replicator_sdg.py`, and use the resulting scene variations as input to your own synthetic-data capture workflow.
-# synthetic_data_healthcare
+Open `assets/hospital_env_labelled.usd`, run `scripts/replicator_sdg.py`, and use the resulting scene variations as input to your own synthetic-data capture workflow.# synthetic_data_healthcare
