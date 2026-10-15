@@ -11,6 +11,8 @@ The current setup is aimed at **scene randomization** rather than full dataset e
 
 ## What the Script Does
 
+![Hospital scene with synthetic-data variations](images/hosp.png)
+
 When `scripts/replicator_sdg.py` is run with the hospital USD stage open, it:
 
 - randomizes the position of selected hospital props while trying to keep them separated,
@@ -22,6 +24,12 @@ When `scripts/replicator_sdg.py` is run with the hospital USD stage open, it:
 
 The script keeps a cached copy of the original transforms so that each variation is generated from the baseline scene instead of accumulating offsets over time.
 
+
+![Hospital scene with synthetic-data variations](images/hosp_sdg.png)
+
+![Hospital scene with synthetic-data variations](images/2d.png)
+
+![Hospital scene with synthetic-data variations](images/segmentation.png)
 ## Current Configuration
 
 The main tunable parameters live near the top of `scripts/replicator_sdg.py:12`.
